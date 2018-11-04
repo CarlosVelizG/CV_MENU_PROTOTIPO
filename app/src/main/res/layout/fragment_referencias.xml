@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Referencias"
+    android:paddingBottom="10dp"
+    android:paddingTop="14sp"
+    android:paddingLeft="3mm"
+    android:paddingRight="3mm"
+    android:orientation="vertical">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="REFERENCIAS PERSONALAES"
+                android:textSize="20sp"
+                android:layout_margin="10sp"
+                android:textColor="#8285af"
+                android:fontFamily="sans-serif-black"/>
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="#013f7c"
+                    android:text="Ing. Raúl Hidalgo"
+                    android:textStyle="bold"
+                    android:paddingLeft="10sp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="#123456"
+                    android:text="Teléfono: 0969888069"
+                    android:textStyle="bold"
+                    android:paddingLeft="10sp"
+                    android:layout_marginBottom="12dp"
+                    />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="#013f7c"
+                    android:text="Sra. Manuela Quimis"
+                    android:textStyle="bold"
+                    android:paddingLeft="10sp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="#123456"
+                    android:text="Teléfono: 0960920628"
+                    android:textStyle="bold"
+                    android:paddingLeft="10sp"
+                    android:layout_marginBottom="12dp"
+                    />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="#013f7c"
+                    android:text="Lcda. Silvana Poveda"
+                    android:textStyle="bold"
+                    android:paddingLeft="10sp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="#123456"
+                    android:text="Teléfono: 0993032966"
+                    android:textStyle="bold"
+                    android:paddingLeft="10sp" />
+
+            </LinearLayout>
+        </LinearLayout>
+
+
+
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

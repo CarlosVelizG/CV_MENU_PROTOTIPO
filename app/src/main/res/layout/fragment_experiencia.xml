@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Experiencia"
+    android:paddingBottom="10dp"
+    android:paddingTop="14sp"
+    android:paddingLeft="3mm"
+    android:paddingRight="3mm"
+    android:orientation="vertical">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <!-- Fin de Estudios Realizados-->
+
+        <!--Experiencia laboral-->
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="EXPERIENCIA LABORAL"
+                android:textSize="20sp"
+                android:layout_margin="10sp"
+                android:textColor="#8285af"
+                android:fontFamily="sans-serif-black"/>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Coorporación el Rosado S.A."
+                    android:textStyle="bold"
+                    android:textColor="#123456"
+                    android:paddingLeft="10sp"
+                    android:paddingRight="10sp"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Cargo:"
+                    android:textStyle="bold"
+                    android:textColor="#123456"
+                    android:paddingLeft="10sp"
+                    android:paddingRight="10sp"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Asistente de Almacén"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Tiempo:"
+                    android:textStyle="bold"
+                    android:textColor="#123456"
+                    android:paddingLeft="10sp"
+                    android:paddingRight="10sp"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="21/08/2014 - 09/10/2015"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="#123456"
+                    android:text="(1 año y 2 meses)"
+                    android:textStyle="bold"
+                    android:paddingLeft="10sp" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+        <!--Fin de Experiencia Laboral-->
+
+    </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Estudios"
+    android:paddingBottom="10dp"
+    android:paddingTop="14sp"
+    android:paddingLeft="3mm"
+    android:paddingRight="3mm"
+    android:orientation="vertical">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+    <!-- Estudiso realizados-->
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="ESTUDIOS REALIZADOS"
+            android:textSize="20sp"
+            android:layout_margin="10sp"
+            android:textColor="#8285af"
+            android:fontFamily="sans-serif-black"/>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Primaria:"
+                android:textStyle="bold"
+                android:textColor="#123456"
+                android:paddingLeft="10sp"
+                android:paddingRight="10sp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Armada Nacional"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Secundaria:"
+                android:textStyle="bold"
+                android:textColor="#123456"
+                android:paddingLeft="10sp"
+                android:paddingRight="10sp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Cayetano Tarruell"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Superior:"
+                android:textStyle="bold"
+                android:textColor="#123456"
+                android:paddingLeft="10sp"
+                android:paddingRight="10sp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Universidad de Guayaquil"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Facultad:"
+                android:textStyle="bold"
+                android:textColor="#123456"
+                android:paddingLeft="10sp"
+                android:paddingRight="10sp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Ingenieria Industrial"/>
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Carrera:"
+                android:textStyle="bold"
+                android:textColor="#123456"
+                android:paddingLeft="10sp"
+                android:paddingRight="10sp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Sistemas de informacion" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="#123456"
+                android:text="(Sexto semestre)"
+                android:textStyle="bold"
+                android:paddingLeft="10sp"/>
+
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+    <!-- Fin de Estudios Realizados-->
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>
